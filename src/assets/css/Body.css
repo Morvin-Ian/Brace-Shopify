@@ -1,0 +1,13 @@
+h2{
+    margin-top: 40px;
+}
+.new-arrivals{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+   
+}
+
+.new-arrivals img{
+    flex-basis: 25%;
+}

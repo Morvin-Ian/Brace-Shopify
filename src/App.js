@@ -1,13 +1,14 @@
 import './App.css';
-import Navbar from './Components/Navbar/Navbar';
-
+import 'bootstrap/dist/css/bootstrap.min.css'
+import Home from './Pages/Home';
 //https://www.exxpozed.com
 
 
 function App() {
   return (
     <div className="App">
-      <Navbar/>
+      <Home/>
+      
     
     </div>
   );
