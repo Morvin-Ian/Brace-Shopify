@@ -1,5 +1,66 @@
-.desc{
-    background-color: rgba(0, 0, 0, 0.382);
+
+.first .desc{
     position: absolute;
-    top: 20%;
+    padding: 70px 30px;
+    transition: display 1s;
+    transition-delay: 3s;
+    line-height: 25px;
+}
+
+.first h2{
+    color: orange;
+}
+.first .desc li{
+    list-style: circle;
+}
+
+.first{
+    height: 70vh;
+    background:linear-gradient(rgba(0, 0, 0, 0.539), rgba(0, 0, 0, 0.918)),url('../images/hoodie1.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    transition: height 1s;
+    transition-delay: 0.4s;
+    color: white;
+}
+
+.first:hover{
+    cursor: pointer;
+    background: linear-gradient(rgba(0, 0, 0, 0.713), rgba(0, 0, 0, 0.903)),url('../images/hoodie1.jpg');;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-color: red;
+    height: 75vh;
+}
+
+
+.img1, .img2, .img3{
+    transition: height 1s;
+    transition-delay: 0.4s;
+}
+
+.img1:hover, .img2:hover, .img3:hover{
+    height: 350px;
+    cursor: pointer;
+
+}
+
+@media only screen and (max-width: 768px) { 
+    .first .desc{
+        font-size: small;
+        padding: 40px 30px;
+    }
+}
+
+@media only screen and (max-width: 450px) { 
+    .first .desc{
+        font-size: xx-small;
+        padding: 10px 30px;
+        line-height: 13px;
+    }
+    .first .desc h2{
+        font-size: small;
+    }
 }

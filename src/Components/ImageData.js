@@ -12,21 +12,25 @@ import offer4 from '../assets/images/sweatpant2.jpg';
 
 export const arrivalData =[
         {
+            id:1,
             image:arrival1,
             name:"Scarp Mepia Shoes",
             price:2000
         },
         {
+            id:2,
             image:arrival2,
             name:"Sport Shoes (Men)",
             price:3000
         },
         {
+            id:3,
             image:arrival3,
             name:"Classic Hoodies",
             price:1000
         },
         {
+            id:4,
             image:arrival4,
             name:"Black Sport Shoes",
             price:5000

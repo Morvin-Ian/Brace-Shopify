@@ -1,3 +1,4 @@
+import { SatelliteAlt } from '@mui/icons-material'
 import { Button } from '@mui/material'
 import React from 'react'
 import { Container } from 'react-bootstrap'
@@ -20,8 +21,8 @@ const Body = () => {
             <div className="arrival" key={index}>
                 <img className='image-fluid' src={data.image}  />
                 <div className='desc'>
-                    <p>{data.name} <br/> Ksh {data.price}</p>
-                    <Link to="/view"><Button variant="contained" color="warning" >View</Button></Link>
+                    <p>{data.name} <br/> KES {data.price}</p>
+                            <Link to={`/view/${data.id}`}><Button variant="contained" color="warning" >View</Button></Link>
                 </div>
             </div>     
 
@@ -40,8 +41,8 @@ const Body = () => {
                     <div className="arrival"  key={index}>
                         <img className='image-fluid' src={data.image}   />
                         <div className='desc'>
-                            <p>{data.name} <br/> Ksh {data.price}</p>
-                            <Link to="/product"><Button variant="contained" color="warning" >View</Button></Link>
+                            <p>{data.name} <br/> <strike>KES {data.initialPrice}*</strike> KES {data.price}</p>
+                            <Link to={`/view/${data.id}`}><Button variant="contained" color="warning" >View</Button></Link>
                         </div>
                     </div>
         
