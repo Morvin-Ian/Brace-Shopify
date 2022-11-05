@@ -1,13 +1,55 @@
 h2{
     margin-top: 40px;
+    font-weight: lighter;
 }
+
+.special{
+    margin-top: 100px;
+}
+
 .new-arrivals{
     display: flex;
     justify-content: space-around;
+    align-items: center;
     flex-wrap: wrap;
    
 }
 
-.new-arrivals img{
-    flex-basis: 25%;
+.new-arrivals:hover img{
+    filter: none;
 }
+
+.new-arrivals .arrival{
+    flex-basis: 25%;
+    position: relative;
+}
+
+
+  .arrival img{
+    height: 300px;
+    width: 200px;
+    margin: 20px;
+    border-radius: 5px;
+    position: inherit;
+    cursor: pointer;
+    object-fit: contain;
+    filter: grayscale(80%);
+  
+  
+  }
+  
+  
+  .arrival .desc{
+    background-color: transparent;
+    padding: 5px;
+    position:absolute;
+    left: 30px;
+    width: 190px;
+    top: 280px;
+    font-weight: bolder;
+    font-size: large;
+    text-align: center;
+
+  
+  }
+  

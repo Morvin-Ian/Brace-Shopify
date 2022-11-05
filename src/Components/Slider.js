@@ -1,7 +1,7 @@
 import React from 'react'
 import slideimage1 from '../assets/images/hoodie1.jpg';
 import slideimage2 from '../assets/images/t-shirt1.jpg';
-import slideimage3 from '../assets/images/modern.jpg';
+import slideimage3 from '../assets/images/hoodie2.jpg';
 import slideimage4 from '../assets/images/t-shirt.jpg';
 import '../assets/css/Slider.css'
 
