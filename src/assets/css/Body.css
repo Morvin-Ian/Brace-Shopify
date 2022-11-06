@@ -16,9 +16,6 @@ h2{
 }
 
 
-.new-arrivals:hover img{
-    filter: none;
-}
 
 .new-arrivals .arrival{
     flex-basis: 25%;
@@ -53,4 +50,10 @@ h2{
 
   
   }
+
+  .arrival:hover img{
+    filter: none;
+  }
+  
+
   

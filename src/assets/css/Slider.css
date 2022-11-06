@@ -1,51 +1,101 @@
 
 .first .desc{
     position: absolute;
-    padding: 70px 30px;
     transition: display 1s;
     transition-delay: 3s;
-    line-height: 25px;
+    margin-top: 10%;
+    margin-left: 5%;
+    margin-right: 5%;
+   
+
 }
 
-.first h2{
-    color: orange;
-}
-.first .desc li{
-    list-style: circle;
-}
 
 .first{
-    height: 70vh;
-    background:linear-gradient(rgba(0, 0, 0, 0.539), rgba(0, 0, 0, 0.918)),url('../images/hoodie1.jpg');
+    height: 50vh;
+    background:linear-gradient(rgba(0, 0, 0, 0.539), rgba(0, 0, 0, 0.918)),url('../images/Ecom.jpg');
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
     transition: height 1s;
     transition-delay: 0.4s;
     color: white;
+    cursor: pointer;
 }
 
 .first:hover{
     cursor: pointer;
-    background: linear-gradient(rgba(0, 0, 0, 0.713), rgba(0, 0, 0, 0.903)),url('../images/hoodie1.jpg');;
+    background: linear-gradient(rgba(0, 0, 0, 0.713), rgba(0, 0, 0, 0.903)),url('../images/Ecom.jpg');
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
     background-color: red;
     height: 75vh;
+    cursor: pointer;
 }
 
-
+/* 
 .img1, .img2, .img3{
     transition: height 1s;
     transition-delay: 0.4s;
-}
+} */
 
-.img1:hover, .img2:hover, .img3:hover{
+/* .img1:hover, .img2:hover, .img3:hover{
     height: 350px;
+    transition-delay: 0.4s;
     cursor: pointer;
+    
+
+} */
+
+
+.cont {
+  position: relative;
+  width: 50%;
+}
+
+.img1, .img2, .img3 {
+  display: block;
 
 }
+
+.overlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: #000000d3;
+  overflow: hidden;
+  width: 100%;
+  height: 100%;
+  -webkit-transform: scale(0);
+  -ms-transform: scale(0);
+  transform: scale(0);
+  -webkit-transition: .3s ease;
+  transition: .3s ease;
+  transition-delay: 0.4s;
+}
+
+
+.cont:hover .overlay {
+  -webkit-transform: scale(1);
+  -ms-transform: scale(1);
+  transform: scale(1);
+  cursor: pointer;
+}
+
+.text {
+  color: rgb(255, 153, 0);
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
 
 @media only screen and (max-width: 768px) { 
     .first .desc{

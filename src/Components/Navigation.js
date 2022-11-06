@@ -15,7 +15,7 @@ const home = {
 const Navigation = () => {
   return (
     <>
-    <Navbar bg="light p-3" expand="lg">
+    <Navbar bg="light p-3 fixed-top" expand="lg">
       <Container>
         <Navbar.Brand style={home} href="#home">Brace Shopify</Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
