@@ -17,7 +17,7 @@ const Navigation = () => {
     <>
     <Navbar bg="light p-3 fixed-top" expand="lg">
       <Container>
-        <Navbar.Brand style={home} href="#home">Brace Shopify</Navbar.Brand>
+        <Navbar.Brand style={home} href="#home">BRACE SHOPIFY </Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto">

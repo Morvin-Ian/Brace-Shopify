@@ -1,7 +1,6 @@
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css'
 import Home from './Pages/Home';
-import { Container } from 'react-bootstrap';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Slider from './Components/Slider';
 import Register from './Pages/Register';

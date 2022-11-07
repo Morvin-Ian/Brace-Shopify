@@ -10,6 +10,11 @@ import offer4 from '../assets/images/sweatpant2.jpg';
 
 
 
+import slideimage2 from '../assets/images/t-shirt1.jpg';
+import slideimage3 from '../assets/images/vintage2.jpg';
+import slideimage5 from '../assets/images/vintage1.jpg';
+
+
 export const arrivalData =[
         {
             id:1,
@@ -66,4 +71,19 @@ export const offerData = [
         price:1000
     }
 
+]
+
+export const SlideData = [
+    {
+        image:slideimage2,
+        description:"Men's Fashion"
+    },
+    {
+        image:slideimage3,
+        description:"Vintage Clothes"
+    },
+    {
+        image:slideimage5,
+        description:"Popular Outfits"
+    }
 ]
