@@ -2,20 +2,17 @@ import React from 'react'
 import '../assets/css/Slider.css'
 import { Button } from '@mui/material';
 import { SlideData } from './ImageData';
-import slideimage1 from '../assets/images/t-shirt.jpg';
-
 
 
 const Slider = () => {
   return (
     <>
     <div className='slider-cont'>
-        {/* <img src={slideimage1} width="100%" height="500px"/> */}
         <div className='first'>
           <div className='desc'>
-            <p>Conventi</p>
+            <p>For Easy Refunds, Instant Delivery, and Amazing Discounts ...</p>
           
-            <Button variant='outlined' color='warning'>SHop Now at Shopify</Button>
+            <Button className='btn' variant='outlined' color='warning'>SHop Now at Shopify</Button>
           </div>
          
 

@@ -3,14 +3,14 @@
     position: absolute;
     transition: display 1s;
     transition-delay: 3s;
-    margin-top: 10%;
-    margin-left: 5%;
-    margin-right: 5%;
+    top: 30%;
+    left: 20%;
+  
   
 }
 
 .first{
-    height: 70vh;
+    height: 60vh;
     background:linear-gradient(rgba(0, 0, 0, 0.879), rgba(0, 0, 0, 0.953)),url('../images/Ecom.jpg');
     background-repeat: no-repeat;
     background-position: center;
@@ -22,6 +22,10 @@
     width: 100%;
 } 
 
+.first .desc p{
+  font-size: xx-large;
+}
+
 .first:hover{
     cursor: pointer;
     background: linear-gradient(rgba(0, 0, 0, 0.713), rgba(0, 0, 0, 0.903)),url('../images/Ecom.jpg');
@@ -29,9 +33,10 @@
     background-position: center;
     background-size: cover;
     background-color: red;
-    height: 75vh;
+    height: 65vh;
     cursor: pointer;
 }
+
 
 /* 
 .img1, .img2, .img3{
@@ -97,19 +102,25 @@
 
 
 @media only screen and (max-width: 768px) { 
+ 
     .first .desc{
-        font-size: small;
-        padding: 40px 30px;
-    }
+      position: absolute;
+      transition: display 1s;
+      transition-delay: 3s;
+      top: 30%;
+      left: 20%;
+    
+    
+  }
+  
+  
+  .first .desc p{
+    font-size: 25px;
+  }
+  
+  
 }
 
 @media only screen and (max-width: 450px) { 
-    .first .desc{
-        font-size: xx-small;
-        padding: 10px 30px;
-        line-height: 13px;
-    }
-    .first .desc h2{
-        font-size: small;
-    }
+  
 }

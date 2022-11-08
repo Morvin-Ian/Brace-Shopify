@@ -1,0 +1,195 @@
+
+.detail-cont {
+    padding:30px;
+    border-radius: 5px;
+    position: inherit;
+    cursor: pointer;
+    border: 1px solid gray;
+    display: flex;
+    margin-left: 5%;
+    margin-right: 40%;
+    margin-top: 10%;
+  
+  }
+  
+  .detail-cont img{
+    width: 400px;
+    border-radius: 5px;
+  }
+  .detail-cont .details li {
+    padding: 4px;
+    
+  }
+  
+  .detail-cont .details li{
+    list-style: none;
+  }
+
+#p{
+    margin-top: 30%;
+}
+  
+  #cart{
+    position: static;
+    top: 85%;
+    padding-left: 200px;
+    padding-right: 200px;
+    margin-left: 10%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    
+  }
+  
+  .address{
+  
+    position: absolute;
+    top: 30%;
+    right: 7%;
+    padding: 10px;
+  }
+  
+  .intro{
+    position: absolute;
+    top: 20%;
+    right: 10%;
+  
+  }
+
+#cart{
+    margin-top: 30px;
+    margin-bottom: 10px;
+  }
+
+@media only screen and (max-width: 768px) {
+
+.detail-cont {
+  padding:30px;
+  border-radius: 5px;
+  position: inherit;
+  cursor: pointer;
+  border: 1px solid gray;
+  display: flex;
+  margin-left: 10%;
+  margin-right: 15%;
+  margin-top: 3%;
+
+}
+
+.detail-cont img{
+  width: 400px;
+  border-radius: 5px;
+}
+.detail-cont .details {
+
+  color: rgba(16, 16, 39, 0.992);
+  padding: 1px;
+  
+
+}
+
+.detail-cont .details li{
+  list-style: none;
+}
+
+#cart{
+  position: static;
+  top: 100%;
+  padding-left: 200px;
+  padding-right: 200px;
+  margin-left: 10%;
+  
+}
+
+.address{
+
+  position: static;
+  padding: 10px;
+  margin-left: 10%;
+  margin-right: 15%;
+}
+
+.intro{
+  position: static;
+  margin-top: 5%;
+  margin-left: 10%;
+
+}
+
+
+.detail-cont img{
+  width: 400px;
+}
+
+
+}
+
+  @media only screen and (max-width: 450px) {
+    .detail-cont img{
+        height: 200px;
+        width: 100%;
+        border-radius: 5px;
+      
+      
+      }
+      
+      .detail-cont {
+        padding:10px;
+        border-radius: 5px;
+        cursor: pointer;
+        display: block;
+        margin: 5%;
+      
+      
+      }
+      
+      
+      #p{
+       
+        top: 40%;
+        position: relative;
+        padding: 20px;
+        font-size: x-small;
+        margin-left: 35%;
+      
+      }
+      
+      
+      .detail-cont .details {
+        background-color:white;
+        color: rgba(16, 16, 39, 0.992);
+        height: 100px;
+        border-radius: 2px;
+        font-size: small;
+        margin-top: 10%;
+        display: block;
+      
+      }
+      
+      
+      #cart{
+        display: block;
+        position: sticky;
+        padding-left: 90px;
+        padding-right: 90px;
+        font-size: small;
+        margin-left: 10%;
+        margin-top: 3%;
+      
+      
+      }
+      
+      .address{
+        position: static;
+        padding: 10px;
+        margin-left: 5%;
+      
+      }
+      
+      .intro{
+       position: static;
+       margin-left: 5%;
+       margin-top: 20%;
+      }
+      
+
+  }

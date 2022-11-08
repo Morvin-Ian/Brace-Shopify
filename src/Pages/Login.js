@@ -10,12 +10,16 @@ const log = {
     top: "50%",
     transform: "translate(-50%, -50%)",
     padding: "60px",
-    backgroundColor:"#fff",
     border:"1px solid black",
-    borderRadius:"4px"
+    borderRadius:"4px",
+    backgroundColor:"black"
 
 
 }
+
+
+
+
 
 const input ={
     padding: "5px",
@@ -29,25 +33,24 @@ const fb = {
     width: "100%",
     padding:"10px",
     borderRadius:"5px",
+    backgroundColor: "rgb(16, 16, 39)",
     color:"white",
-    border:"none",
-    backgroundColor:"black",
-
+    border:"none"
     
 }
 
 
 const or= {
-  color:"orange",
+  color:"wheat",
   textAlign:"center"
   
 };
 
 const submit = {
-  marginLeft:"30%",
+  marginLeft:"35%",
   padding:"10px",
   borderRadius:"5px",
-  backgroundColor:"black",
+  backgroundColor: "rgb(16, 16, 39)",
   color:"white",
   border:"none"
     
@@ -57,12 +60,13 @@ const submit = {
 const ig ={
     width: "100%",
     padding:"10px",
-    backgroundColor:"black",
+    backgroundColor:"rgb(16, 16, 39)",
     color:"white",
     border:"none",
     borderRadius:"5px",
  
 };
+
 
 
 
@@ -83,14 +87,13 @@ const Login = () => {
 
                 /> <br/>
 
-                <input 
-                    style={input} 
-                    type="email" 
-                    placeholder='Email e.g talk@gmail.com'
-                    required
-                    // value={email}
-                    // onChange={(e)=>setemail(e.target.value)}
-                    /> <br/>
+            <input 
+                style={input} 
+                type="password" 
+                placeholder='Password'
+                // value={password}
+                // onChange={(e)=>setpassword(e.target.value)}
+                /> <br/>
             
                 <button style={submit} type="submit"> LOG IN</button> <br/>
 

@@ -2,31 +2,18 @@ import React from 'react'
 import { Link } from 'react-router-dom'
 import styled from 'styled-components';
 
+
 const Reg = styled.div`
     position: absolute;
     left: 50%;
     top: 50%;
     transform: translate(-50%, -50%);
-    padding: 60px;
-    background-color:#fff;
-    border:1px solid black;
-    border-radius:5px;
+    padding: 70px;
+    background-color:black;
+   
 
 
 ;`
-
-
-const submit = {
-    marginLeft:"30%",
-    padding:"10px",
-    borderRadius:"5px",
-    backgroundColor:"black",
-    color:"white",
-    border:"none"
-      
-     
-  };
-
 
 const input ={
     padding: "5px",
@@ -35,7 +22,32 @@ const input ={
     textAlign:"center",
     color:"gray"
 
+
 };
+
+const submit = {
+    marginLeft:"35%",
+    padding:"10px",
+    borderRadius:"5px",
+    backgroundColor: "rgb(16, 16, 39)",
+    color:"white",
+    border:"none"
+    
+}
+
+const fb = {
+    width: "100%",
+    padding:"10px",
+    backgroundColor:"white"
+   
+};
+
+const ig ={
+    width: "100%",
+    padding:"10px",
+    backgroundColor:"white"
+};
+
 const Register = () => {
   return (
     <>
@@ -66,6 +78,14 @@ const Register = () => {
                 style={input} 
                 type="password" 
                 placeholder='Password'
+                // value={password}
+                // onChange={(e)=>setpassword(e.target.value)}
+                /> <br/>
+
+            <input 
+                style={input} 
+                type="password" 
+                placeholder='Confirm Password'
                 // value={password}
                 // onChange={(e)=>setpassword(e.target.value)}
                 /> <br/>
